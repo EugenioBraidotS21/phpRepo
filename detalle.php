@@ -1,9 +1,8 @@
-<!-- archivo2.php -->
 <?php
 session_start();
 
 if (!isset($_SESSION["nombre"])) {
-    header("Location: archivo1.php");
+    header("Location: index.php");
     exit();
 }
 
